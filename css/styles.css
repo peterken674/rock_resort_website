@@ -1,3 +1,9 @@
+body {
+    background-color: #F7F4DD;
+    background-image: url(https://s1.it.atcdn.net/wp-content/uploads/2013/01/Hilton_Fiji_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logo {
     height: 150px;
     border-radius: 50%;
@@ -7,7 +13,7 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-color: #1C2A2F;
+    background-color: rgba(28, 42, 47, 0.8);
     margin: 0px;
     font-size: 20px;
     position: absolute;

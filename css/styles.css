@@ -1,5 +1,11 @@
 body {
-    background-color: #ddf3f7;
+    background-color: rgba(221, 243, 247, 0.8);
+    margin: 0px;
+    background-image: url(https://media.cntraveler.com/photos/5fd43196b405c65ac7294577/master/w_4387,h_2982,c_limit/533554773);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 .logo {
     height: 150px;
@@ -10,18 +16,13 @@ body {
 .header {
     padding: 40px;
     text-align: center;
-    background-color: rgba(15, 15, 15, 0.5);
+    background-color: rgba(15, 15, 15, 0.6);
     margin: 0px;
     font-size: 20px;
     position: absolute;
     width: 100%;
     left: 0px;
     top: 0px;
-    background-image: url(https://media.cntraveler.com/photos/5fd43196b405c65ac7294577/master/w_4387,h_2982,c_limit/533554773);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-blend-mode: multiply;
 }
 
 .header h1 a{

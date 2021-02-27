@@ -1,3 +1,6 @@
+body {
+    background-color: #ddf3f7;
+}
 .logo {
     height: 150px;
     border-radius: 50%;
@@ -7,18 +10,24 @@
 .header {
     padding: 40px;
     text-align: center;
-    background-color: #1C2A2F;
+    background-color: rgba(15, 15, 15, 0.5);
     margin: 0px;
     font-size: 20px;
     position: absolute;
     width: 100%;
     left: 0px;
     top: 0px;
+    background-image: url(https://media.cntraveler.com/photos/5fd43196b405c65ac7294577/master/w_4387,h_2982,c_limit/533554773);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .header h1 a{
-    color: #F48D1F;
+    color: #FFFFFF;
     text-decoration: none;
+    font-size: 60px;
 }
 
 
@@ -42,16 +51,16 @@
         'Arial Narrow Bold',
         sans-serif;
     margin-left: 25px;
-    color: #F48D1F;
+    color: white;
 }
 
 #navigation ul li a:link {
-    color: white;
+    color: #1ABC9C;
     text-decoration: none;
 }
 
 #navigation ul li a:visited {
-    color: white;
+    color: #1ABC9C;
     text-decoration: none;
 }
 
@@ -59,12 +68,12 @@
     padding-bottom: 5px;
     border-bottom-style: solid;
     border-bottom-width: 3px;
-    border-bottom-color: #F48D1F;
+    border-bottom-color: white;
     width: fit-content;
 }
 
 #navigation ul li a:active {
-    color: #F48D1F;
+    color: #49AAE1;
     font-weight: bold;
 }
 
@@ -73,7 +82,7 @@
     font-size: 12px;
     text-align: center;
     padding: 3px;
-    background-color: #155F78;
+    background-color: #1ABC9C;
     color: white;
     position: absolute;
     width: 100%;
@@ -86,5 +95,9 @@
     color: white;
 }
 #footer a:hover{
-    color: #F48D1F;
+    color: whitesmoke;
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: whitesmoke width: fit-content;
 }

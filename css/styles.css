@@ -3,6 +3,7 @@ body {
     background-image: url(https://s1.it.atcdn.net/wp-content/uploads/2013/01/Hilton_Fiji_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 .logo {
     height: 150px;
